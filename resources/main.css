@@ -1,0 +1,25 @@
+header {
+    background-color: bisque;
+    height: 3.125rem;
+}
+
+nav {
+    font-size: 1.25rem;
+    padding-top: 0.625rem;
+    padding-left: 1rem;
+}
+
+nav a {
+    padding-right: 1.5rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 16%);
+    grid-template-rows: repeat(10, 10%);
+}
+
+.intro p {
+    font-family: 'Rubik', sans-serif;
+}
+
