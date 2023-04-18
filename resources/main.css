@@ -17,6 +17,10 @@ nav a {
     color:cornflowerblue;
 }
 
+nav a:hover {
+    color: rgb(225, 0, 255);
+}
+
 .container {
     display: grid;
     grid-template-columns: repeat(6, 16%);
@@ -120,4 +124,8 @@ footer a {
     font-weight: bold;
     font-family: 'Rubik', sans-serif;
     color:white;
+}
+
+footer a:hover {
+    color: rgb(190, 245, 39);
 }
